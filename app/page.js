@@ -10,7 +10,7 @@ import paginas_web_ from "../public/paginas_web.svg";
 import Carousel from "nuka-carousel";
 import right_arrow_ from "../public/right_arrow.svg";
 import left_arrow_ from "../public/left_arrow.svg";
-import yo_ from "../public/yo.png";
+import yo_ from "../public/yo_.png";
 import foto_pag_nati_ from "../public/foto_pag_nati.png";
 import foto_pag_sac_ from "../public/foto_pag_sac.png";
 import foto_pag_lafirma_ from "../public/foto_pag_lafirma.jpeg";
@@ -187,10 +187,10 @@ export default function Home() {
           id="about"
           className="flex flex-col lg:flex-row gap-10 py-10 items-center"
         >
-          <div className="bg-grisesito lg:w-1/2 relative">
-            <div className="text-xl text-center lg:text-start lg:text-3xl absolute bottom-0 right-0 lg:w-8/12 p-2 lg:p-6  bg-white">
+          <div className="lg:w-1/2 bg-slate-200 relative">
+            <div className="text-xl text-center lg:text-start lg:text-3xl absolute bottom-0 right-0 lg:w-12/12 p-2 lg:p-5  bg-black bg-opacity-70 bg-transparent">
               <p className="text-primary font-bold">DROBOTIJ LEANDRO</p>
-              <p>DISEÑADOR Y DESARROLLADOR WEB</p>
+              <p className=" text-slate-50">DISEÑADOR Y DESARROLLADOR WEB</p>
             </div>
             <Image src={yo_} alt="Drobotij leandro nahuel" />
           </div>
@@ -212,7 +212,7 @@ export default function Home() {
         </p>
         <h3 className="text-black-t text-4xl lg:text-5xl">páginas web</h3>
       </div>
-      <div className="bg-grisesito">
+      <div className="bg-slate-200">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-10">
           <div className="bg-white">
             <Image src={foto_pag_nati_} alt="Pastelería Natalie" />
@@ -262,7 +262,7 @@ export default function Home() {
         <p className="text-primary text-sm pb-2">Diseño</p>
         <h3 className="text-black-t text-4xl lg:text-5xl ">LOGOS</h3>
       </div>
-      <div className="bg-grisesito">
+      <div className="bg-slate-200">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-10">
           <div className="bg-[#19284C] h-80 p-10 justify-center flex items-center">
             <Image src={lafirma_logo_} alt="La firma asociados" />
