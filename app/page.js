@@ -188,7 +188,7 @@ export default function Home() {
           className="flex flex-col lg:flex-row gap-10 py-10 items-center"
         >
           <div className="lg:w-1/2 bg-slate-200 relative">
-            <div className="text-xl text-center lg:text-start lg:text-3xl absolute bottom-0 right-0 lg:w-12/12 p-2 lg:p-5  bg-black bg-opacity-70 bg-transparent">
+            <div className="text-xl text-center lg:text-start lg:text-3xl absolute bottom-0 right-0 lg:w-12/12 p-2 lg:p-5  bg-black bg-opacity-60 ">
               <p className="text-primary font-bold">DROBOTIJ LEANDRO</p>
               <p className=" text-slate-50">DISEÑADOR Y DESARROLLADOR WEB</p>
             </div>
