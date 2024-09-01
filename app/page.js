@@ -22,6 +22,8 @@ import logo from "../public/logo.png";
 import wasap_verde_ from "../public/wasap_verde.svg";
 import hamburger_ from "../public/hamburger.svg";
 import Menu from "./Menu";
+import foto_pag_althar from '../public/foto_pag_althar.png';
+
 
 export default function Home() {
   const openMenu = () => {
@@ -215,17 +217,17 @@ export default function Home() {
       <div className="bg-slate-200">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 lg:p-10">
           <div className="bg-white">
-            <Image src={foto_pag_nati_} alt="Pastelería Natalie" />
+            <Image src={foto_pag_althar} alt="Pastelería Natalie" />
             <p className=" mt-5 text-primary w-11/12 mx-auto">
-              DISEÑO + PANEL ADMINISTRADOR + CATALOGO WEB + LOGO
+              DISEÑO + Desarrollo + Página Corporativa
             </p>
             <a
               className="text-sm mt-5 text-secondary lowercase w-11/12 mx-auto block pb-5 hover:text-black-t transition-all"
-              href="https://pastelerianatalie.netlify.app"
+              href="https://althar.com.ar/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://pastelerianatalie.netlify.app
+              www.althar.com.ar
             </a>
           </div>
           <div className="bg-white">
@@ -253,7 +255,21 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://lafirmaconsultores.com.ar
+              www.lafirmaconsultores.com.ar
+            </a>
+          </div>
+          <div className="bg-white">
+            <Image src={foto_pag_nati_} alt="Pastelería Natalie" />
+            <p className=" mt-5 text-primary w-11/12 mx-auto">
+              DISEÑO + PANEL ADMINISTRADOR + CATALOGO WEB + LOGO
+            </p>
+            <a
+              className="text-sm mt-5 text-secondary lowercase w-11/12 mx-auto block pb-5 hover:text-black-t transition-all"
+              href="https://pastelerianatalie.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://pastelerianatalie.netlify.app
             </a>
           </div>
         </div>
